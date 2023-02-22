@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as *;
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+.wrapper {
+  max-width: $max-width;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fdfdfb;
+}
+
+.span-bold {
+  font-weight: 700;
+}

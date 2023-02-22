@@ -1,0 +1,39 @@
+@use '../abstracts/' as *;
+
+button {
+  padding: 2.6rem 3.8rem;
+  max-width: fit-content;
+
+  font-family: $font-sans;
+  @include font(1.2rem, 1.4rem, 500);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  @extend %transition;
+}
+
+.gray {
+  background-color: #444240;
+
+  color: #ffffff;
+
+  &:hover,
+  &:active {
+    background-color: $primary-white;
+
+    color: $primary-black;
+  }
+}
+
+.red {
+  background-color: #d4b098;
+
+  color: #ffffff;
+
+  &:hover,
+  &:active {
+    background-color: $primary-gray;
+
+    color: #ffffff;
+  }
+}
